@@ -16,7 +16,6 @@ import android.widget.TimePicker;
 
 import java.util.Calendar;
 
-
 public class MainActivity extends AppCompatActivity {
 
     AlarmManager alarm_manager;
