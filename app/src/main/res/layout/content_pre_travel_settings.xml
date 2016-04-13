@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alarmprot.PreTravelSettings"
+    tools:showIn="@layout/activity_pre_travel_settings">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Indstillinger"
+        android:id="@+id/indstillingsBar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:textSize="14pt"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alm. alarm: 30 min før afgang"
+        android:id="@+id/DefaultCheckbox"
+        android:layout_below="@+id/indstillingsBar"
+        android:layout_marginTop="104dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:checked="true"
+        android:clickable="true"
+        android:buttonTint="#ffffff"
+        android:textSize="10pt" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:id="@+id/addPreTravelBtn"
+        android:layout_marginBottom="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff"
+        android:background="#000000"
+        android:textSize="18pt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Tilføj personlig morgentid"
+        android:id="@+id/textView4"
+        android:textColor="#000000"
+        android:textSize="10pt"
+        android:layout_alignTop="@+id/addPreTravelBtn"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="25dp" />
+
+</RelativeLayout>

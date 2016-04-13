@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.example.alarmprot.MainActivity">
+    tools:context="com.example.alarmprot.PreTravelSettings">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -19,23 +19,21 @@
             android:background="#000000"
             app:popupTheme="@style/AppTheme.PopupOverlay">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Smart Vækkeur"
-                android:textColor="#ffffff"
-                android:textSize="16pt"
-                android:layout_marginLeft="70dp"
-                android:id="@+id/textView"
-                android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Smart Vækkeur"
+            android:textColor="#ffffff"
+            android:textSize="16pt"
+            android:layout_marginLeft="70dp"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
 
         </android.support.v7.widget.Toolbar>
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_main" />
-
-
+    <include layout="@layout/content_pre_travel_settings" />
 
 </android.support.design.widget.CoordinatorLayout>

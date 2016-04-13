@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
         int hour = calendar.get(Calendar.HOUR_OF_DAY);
         int min = calendar.get(Calendar.MINUTE);
         // create new intent, inisiate new class.
-        intentSettings = new Intent(this, SettingsActivity.class);
+        intentSettings = new Intent(this, MySettings.class);
 
 
 
@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
 
         int min = timePicker1.getMinute();
 
-        
+
         //calendar.set(Calendar.HOUR_OF_DAY, timePicker1.getHour());
         //calendar.set(Calendar.MINUTE, timePicker1.getMinute());
 
